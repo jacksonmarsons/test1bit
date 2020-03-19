@@ -20,7 +20,7 @@
                 <div class="form-group">
                     <label for="title">Название</label>
                     <input name="category[id]" type="hidden" value="<?=$category->id?>">
-                    <input name="category[title]" type="text" class="form-control" id="title" value="<?=$category->title?>">
+                    <input name="category[title]" type="text" class="form-control" id="title" value="<?=$category->title?>" required>
                 </div>
                 <input name="category[create_at]" type="hidden" value="<?=$category->create_at;?>">
                 <input name="category[update_at]" type="hidden" value="<?=$category->update_at;?>">

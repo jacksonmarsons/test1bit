@@ -31,7 +31,7 @@
                     </select>
                     <div></div>
                     <label for="title">Название</label>
-                    <input name="item[title]" type="text" class="form-control" id="title" value="<?=$item->title?>">
+                    <input name="item[title]" type="text" class="form-control" id="title" value="<?=$item->title?>" required>
                     <label for="type">Тип</label>
                     <input name="item[type]" type="text" class="form-control" id="type" value="<?=$item->type?>">
                 </div>
