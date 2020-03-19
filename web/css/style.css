@@ -1,0 +1,32 @@
+.main_category_list{
+   margin-top: 20px;
+}
+
+.item_li{
+   background: #aeaeae;
+}
+
+.badge{
+   margin-top: -8px;
+}
+
+.data_time_info{
+   font-size: 9px;
+   background: none;
+   border: solid 1px #838383;
+   color: #838383 ;
+   position: absolute;
+   top: 31px;
+   right: 10px;
+}
+
+.sort_select{
+   max-width: 200px;
+   margin-top: 5px;
+   float: right;
+   margin-right: 16px;
+}
+
+.sort_select_box{
+   text-align: right;
+}
