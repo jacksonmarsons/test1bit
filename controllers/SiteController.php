@@ -9,11 +9,10 @@ class SiteController extends Controller{
 
    public function actionIndex(){
 
-
       return Html::render('/site/index', [
-               'categories' => Category::getCategorys(), 
-               'items' => Item::getItems(),
-               ]);
+         'categories' => Category::getCategorys(), 
+         'items' => Item::getItems(),
+      ]);
    }
 
    public function actionSort(){
